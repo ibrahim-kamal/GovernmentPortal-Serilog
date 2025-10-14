@@ -1,0 +1,178 @@
+2025-10-14 18:05:37.030 +03:00 [INF] Now listening on: https://localhost:7090
+2025-10-14 18:05:46.252 +03:00 [INF] Now listening on: http://localhost:5245
+2025-10-14 18:05:46.330 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-14 18:05:46.332 +03:00 [INF] Hosting environment: Development
+2025-10-14 18:05:46.336 +03:00 [INF] Content root path: F:\2p_test\GovernmentPortal\src\GovernmentPortal
+2025-10-14 18:06:21.341 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7090/ - null null
+2025-10-14 18:06:21.576 +03:00 [INF] Executing endpoint 'GovernmentPortal.Controllers.LicensingController.GetApplications (GovernmentPortal)'
+2025-10-14 18:06:21.598 +03:00 [INF] Route matched with {action = "GetApplications", controller = "Licensing"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetApplications() on controller GovernmentPortal.Controllers.LicensingController (GovernmentPortal).
+2025-10-14 18:06:21.625 +03:00 [INF] Executing OkObjectResult, writing value of type 'GovernmentPortal.Services.LicenseService+<GetApplications>d__1'.
+2025-10-14 18:06:21.664 +03:00 [INF] Executed action GovernmentPortal.Controllers.LicensingController.GetApplications (GovernmentPortal) in 55.5025ms
+2025-10-14 18:06:21.758 +03:00 [INF] Executed endpoint 'GovernmentPortal.Controllers.LicensingController.GetApplications (GovernmentPortal)'
+2025-10-14 18:06:21.766 +03:00 [INF] HTTP GET / responded 200 in 225.8604 ms
+2025-10-14 18:06:21.799 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7090/ - 200 null application/json; charset=utf-8 459.561ms
+2025-10-14 18:06:22.175 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7090/favicon.ico - null null
+2025-10-14 18:06:22.193 +03:00 [INF] HTTP GET /favicon.ico responded 404 in 4.5160 ms
+2025-10-14 18:06:22.198 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7090/favicon.ico - 404 0 null 22.6652ms
+2025-10-14 18:06:22.212 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7090/favicon.ico, Response status code: 404
+2025-10-14 18:06:28.033 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7090/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-14 18:06:28.049 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7090/_vs/browserLink - null null
+2025-10-14 18:06:28.183 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7090/_framework/aspnetcore-browser-refresh.js - 200 16517 application/javascript; charset=utf-8 150.1359ms
+2025-10-14 18:06:28.257 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7090/_vs/browserLink - 200 null text/javascript; charset=UTF-8 208.8044ms
+2025-10-14 18:06:28.465 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7090/swagger/v1/swagger.json - null null
+2025-10-14 18:06:28.544 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 63.3659 ms
+2025-10-14 18:06:28.555 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7090/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 90.0586ms
+2025-10-14 18:06:33.285 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7090/ - null null
+2025-10-14 18:06:33.297 +03:00 [INF] Executing endpoint 'GovernmentPortal.Controllers.LicensingController.GetApplications (GovernmentPortal)'
+2025-10-14 18:06:33.300 +03:00 [INF] Route matched with {action = "GetApplications", controller = "Licensing"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetApplications() on controller GovernmentPortal.Controllers.LicensingController (GovernmentPortal).
+2025-10-14 18:06:33.312 +03:00 [INF] Executing OkObjectResult, writing value of type 'GovernmentPortal.Services.LicenseService+<GetApplications>d__1'.
+2025-10-14 18:06:33.314 +03:00 [INF] Executed action GovernmentPortal.Controllers.LicensingController.GetApplications (GovernmentPortal) in 3.5059ms
+2025-10-14 18:06:33.316 +03:00 [INF] Executed endpoint 'GovernmentPortal.Controllers.LicensingController.GetApplications (GovernmentPortal)'
+2025-10-14 18:06:33.320 +03:00 [INF] HTTP GET / responded 200 in 23.0237 ms
+2025-10-14 18:06:33.326 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7090/ - 200 null application/json; charset=utf-8 41.648ms
+2025-10-14 18:07:35.062 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7090/api/Licensing - application/json 84
+2025-10-14 18:07:35.072 +03:00 [INF] Executing endpoint 'GovernmentPortal.Controllers.LicensingController.SubmitApplication (GovernmentPortal)'
+2025-10-14 18:07:35.089 +03:00 [INF] Route matched with {action = "SubmitApplication", controller = "Licensing"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SubmitApplication(GovernmentPortal.Models.LicenseApplicationViwModel) on controller GovernmentPortal.Controllers.LicensingController (GovernmentPortal).
+2025-10-14 18:07:35.154 +03:00 [INF] new License Application Was Submitted {"Name":"ibrhaim","NationalNumber":"123456789","Mobile":"010944467396","$type":"LicenseApplicationViwModel"}
+2025-10-14 18:07:35.169 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`2[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-10-14 18:07:35.190 +03:00 [INF] Executed action GovernmentPortal.Controllers.LicensingController.SubmitApplication (GovernmentPortal) in 91.5976ms
+2025-10-14 18:07:35.202 +03:00 [INF] Executed endpoint 'GovernmentPortal.Controllers.LicensingController.SubmitApplication (GovernmentPortal)'
+2025-10-14 18:07:35.210 +03:00 [INF] HTTP POST /api/Licensing responded 200 in 142.3070 ms
+2025-10-14 18:07:35.217 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7090/api/Licensing - 200 null application/json; charset=utf-8 154.9581ms
+2025-10-14 18:08:37.581 +03:00 [INF] Now listening on: https://localhost:7090
+2025-10-14 18:08:37.611 +03:00 [INF] Now listening on: http://localhost:5245
+2025-10-14 18:08:37.685 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-14 18:08:37.687 +03:00 [INF] Hosting environment: Development
+2025-10-14 18:08:37.688 +03:00 [INF] Content root path: F:\2p_test\GovernmentPortal\src\GovernmentPortal
+2025-10-14 18:09:00.852 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7090/ - null null
+2025-10-14 18:09:01.563 +03:00 [INF] Executing endpoint 'GovernmentPortal.Controllers.LicensingController.GetApplications (GovernmentPortal)'
+2025-10-14 18:09:01.630 +03:00 [INF] Route matched with {action = "GetApplications", controller = "Licensing"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetApplications() on controller GovernmentPortal.Controllers.LicensingController (GovernmentPortal).
+2025-10-14 18:09:01.687 +03:00 [INF] Executing OkObjectResult, writing value of type 'GovernmentPortal.Services.LicenseService+<GetApplications>d__1'.
+2025-10-14 18:09:01.766 +03:00 [INF] Executed action GovernmentPortal.Controllers.LicensingController.GetApplications (GovernmentPortal) in 108.4646ms
+2025-10-14 18:09:01.821 +03:00 [INF] Executed endpoint 'GovernmentPortal.Controllers.LicensingController.GetApplications (GovernmentPortal)'
+2025-10-14 18:09:01.830 +03:00 [INF] HTTP GET / responded 200 in 427.4242 ms
+2025-10-14 18:09:01.855 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7090/ - 200 null application/json; charset=utf-8 1011.2967ms
+2025-10-14 18:09:08.820 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7090/_vs/browserLink - null null
+2025-10-14 18:09:08.820 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7090/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-14 18:09:08.885 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7090/_framework/aspnetcore-browser-refresh.js - 200 16517 application/javascript; charset=utf-8 64.5341ms
+2025-10-14 18:09:08.970 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7090/_vs/browserLink - 200 null text/javascript; charset=UTF-8 149.5666ms
+2025-10-14 18:09:09.342 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7090/swagger/v1/swagger.json - null null
+2025-10-14 18:09:09.495 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 136.9128 ms
+2025-10-14 18:09:09.513 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7090/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 170.7389ms
+2025-10-14 18:09:28.347 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7090/api/Licensing - application/json 83
+2025-10-14 18:09:28.359 +03:00 [INF] Executing endpoint 'GovernmentPortal.Controllers.LicensingController.SubmitApplication (GovernmentPortal)'
+2025-10-14 18:09:28.377 +03:00 [INF] Route matched with {action = "SubmitApplication", controller = "Licensing"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SubmitApplication(GovernmentPortal.Models.LicenseApplicationViwModel) on controller GovernmentPortal.Controllers.LicensingController (GovernmentPortal).
+2025-10-14 18:09:28.425 +03:00 [INF] new License Application Was Submitted {"Name":"ibrahim","NationalNumber":"123456789","Mobile":"01094467396","$type":"LicenseApplicationViwModel"}
+2025-10-14 18:09:28.440 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`2[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-10-14 18:09:28.448 +03:00 [INF] Executed action GovernmentPortal.Controllers.LicensingController.SubmitApplication (GovernmentPortal) in 63.1907ms
+2025-10-14 18:09:28.450 +03:00 [INF] Executed endpoint 'GovernmentPortal.Controllers.LicensingController.SubmitApplication (GovernmentPortal)'
+2025-10-14 18:09:28.452 +03:00 [INF] HTTP POST /api/Licensing responded 200 in 95.7466 ms
+2025-10-14 18:09:28.454 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7090/api/Licensing - 200 null application/json; charset=utf-8 107.2225ms
+2025-10-14 18:10:26.292 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7090/ - null null
+2025-10-14 18:10:26.302 +03:00 [INF] Executing endpoint 'GovernmentPortal.Controllers.LicensingController.GetApplications (GovernmentPortal)'
+2025-10-14 18:10:26.312 +03:00 [INF] Route matched with {action = "GetApplications", controller = "Licensing"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetApplications() on controller GovernmentPortal.Controllers.LicensingController (GovernmentPortal).
+2025-10-14 18:10:26.315 +03:00 [INF] Executing OkObjectResult, writing value of type 'GovernmentPortal.Services.LicenseService+<GetApplications>d__1'.
+2025-10-14 18:10:26.330 +03:00 [INF] Executed action GovernmentPortal.Controllers.LicensingController.GetApplications (GovernmentPortal) in 14.8022ms
+2025-10-14 18:10:26.359 +03:00 [INF] Executed endpoint 'GovernmentPortal.Controllers.LicensingController.GetApplications (GovernmentPortal)'
+2025-10-14 18:10:26.361 +03:00 [INF] HTTP GET / responded 200 in 58.5286 ms
+2025-10-14 18:10:26.364 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7090/ - 200 null application/json; charset=utf-8 71.3268ms
+2025-10-14 18:11:16.727 +03:00 [INF] Request starting HTTP/2 PUT https://localhost:7090/api/Licensing/4a449df9-120b-4b8c-9027-a0e4c7e0c4f8 - application/json 39
+2025-10-14 18:11:16.750 +03:00 [INF] Executing endpoint 'GovernmentPortal.Controllers.LicensingController.UpdateApplication (GovernmentPortal)'
+2025-10-14 18:11:16.755 +03:00 [INF] Route matched with {action = "UpdateApplication", controller = "Licensing"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult UpdateApplication(GovernmentPortal.Models.LicenseApplicationActionViwModel) on controller GovernmentPortal.Controllers.LicensingController (GovernmentPortal).
+2025-10-14 18:11:16.776 +03:00 [ERR] app id is "00000000-0000-0000-0000-000000000000" Reason Is Required at "2025-10-14T18:11:16.7760390+03:00"
+2025-10-14 18:11:16.784 +03:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-10-14 18:11:16.820 +03:00 [INF] Executed action GovernmentPortal.Controllers.LicensingController.UpdateApplication (GovernmentPortal) in 61.6837ms
+2025-10-14 18:11:16.827 +03:00 [INF] Executed endpoint 'GovernmentPortal.Controllers.LicensingController.UpdateApplication (GovernmentPortal)'
+2025-10-14 18:11:16.832 +03:00 [INF] HTTP PUT /api/Licensing/4a449df9-120b-4b8c-9027-a0e4c7e0c4f8 responded 400 in 83.5083 ms
+2025-10-14 18:11:16.836 +03:00 [INF] Request finished HTTP/2 PUT https://localhost:7090/api/Licensing/4a449df9-120b-4b8c-9027-a0e4c7e0c4f8 - 400 null application/problem+json; charset=utf-8 108.9856ms
+2025-10-14 18:13:20.952 +03:00 [INF] Now listening on: https://localhost:7090
+2025-10-14 18:13:21.067 +03:00 [INF] Now listening on: http://localhost:5245
+2025-10-14 18:13:21.427 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-14 18:13:21.428 +03:00 [INF] Hosting environment: Development
+2025-10-14 18:13:21.429 +03:00 [INF] Content root path: F:\2p_test\GovernmentPortal\src\GovernmentPortal
+2025-10-14 18:13:41.701 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7090/swagger/index.html - null null
+2025-10-14 18:13:42.347 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 363.9693 ms
+2025-10-14 18:13:42.477 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7090/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-14 18:13:42.505 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7090/_vs/browserLink - null null
+2025-10-14 18:13:42.696 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7090/swagger/index.html - 200 null text/html;charset=utf-8 998.7253ms
+2025-10-14 18:13:42.754 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7090/_framework/aspnetcore-browser-refresh.js - 200 16517 application/javascript; charset=utf-8 277.1771ms
+2025-10-14 18:13:42.917 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7090/_vs/browserLink - 200 null text/javascript; charset=UTF-8 411.5137ms
+2025-10-14 18:13:43.115 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7090/swagger/v1/swagger.json - null null
+2025-10-14 18:13:43.249 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 72.4957 ms
+2025-10-14 18:13:43.258 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7090/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 143.419ms
+2025-10-14 18:13:47.444 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7090/api/Licensing - null null
+2025-10-14 18:13:47.473 +03:00 [INF] Executing endpoint 'GovernmentPortal.Controllers.LicensingController.GetApplications (GovernmentPortal)'
+2025-10-14 18:13:47.493 +03:00 [INF] Route matched with {action = "GetApplications", controller = "Licensing"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetApplications() on controller GovernmentPortal.Controllers.LicensingController (GovernmentPortal).
+2025-10-14 18:13:47.508 +03:00 [INF] Executing OkObjectResult, writing value of type 'GovernmentPortal.Services.LicenseService+<GetApplications>d__1'.
+2025-10-14 18:13:47.535 +03:00 [INF] Executed action GovernmentPortal.Controllers.LicensingController.GetApplications (GovernmentPortal) in 31.1367ms
+2025-10-14 18:13:47.536 +03:00 [INF] Executed endpoint 'GovernmentPortal.Controllers.LicensingController.GetApplications (GovernmentPortal)'
+2025-10-14 18:13:47.537 +03:00 [INF] HTTP GET /api/Licensing responded 200 in 84.8119 ms
+2025-10-14 18:13:47.539 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7090/api/Licensing - 200 null application/json; charset=utf-8 94.9507ms
+2025-10-14 18:14:31.644 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7090/api/Licensing - application/json 84
+2025-10-14 18:14:31.649 +03:00 [INF] Executing endpoint 'GovernmentPortal.Controllers.LicensingController.SubmitApplication (GovernmentPortal)'
+2025-10-14 18:14:31.659 +03:00 [INF] Route matched with {action = "SubmitApplication", controller = "Licensing"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SubmitApplication(GovernmentPortal.Models.LicenseApplicationViwModel) on controller GovernmentPortal.Controllers.LicensingController (GovernmentPortal).
+2025-10-14 18:14:31.696 +03:00 [INF] new License Application Was Submitted {"Name":"ibrahim","NationalNumber":"1234567890","Mobile":"01094467396","$type":"LicenseApplicationViwModel"}
+2025-10-14 18:14:31.713 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`2[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-10-14 18:14:31.727 +03:00 [INF] Executed action GovernmentPortal.Controllers.LicensingController.SubmitApplication (GovernmentPortal) in 64.3622ms
+2025-10-14 18:14:31.729 +03:00 [INF] Executed endpoint 'GovernmentPortal.Controllers.LicensingController.SubmitApplication (GovernmentPortal)'
+2025-10-14 18:14:31.734 +03:00 [INF] HTTP POST /api/Licensing responded 200 in 86.3854 ms
+2025-10-14 18:14:31.737 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7090/api/Licensing - 200 null application/json; charset=utf-8 93.6874ms
+2025-10-14 18:15:11.700 +03:00 [INF] Request starting HTTP/2 PUT https://localhost:7090/api/Licensing - application/json 87
+2025-10-14 18:15:11.705 +03:00 [INF] Executing endpoint 'GovernmentPortal.Controllers.LicensingController.UpdateApplication (GovernmentPortal)'
+2025-10-14 18:15:11.714 +03:00 [INF] Route matched with {action = "UpdateApplication", controller = "Licensing"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult UpdateApplication(GovernmentPortal.Models.LicenseApplicationActionViwModel) on controller GovernmentPortal.Controllers.LicensingController (GovernmentPortal).
+2025-10-14 18:15:11.739 +03:00 [ERR] app id is "963506c9-42b2-42d9-b080-5f0bf2d148c2" Reason Is Required at "2025-10-14T18:15:11.7380597+03:00"
+2025-10-14 18:15:11.743 +03:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-10-14 18:15:11.770 +03:00 [INF] Executed action GovernmentPortal.Controllers.LicensingController.UpdateApplication (GovernmentPortal) in 45.9401ms
+2025-10-14 18:15:11.781 +03:00 [INF] Executed endpoint 'GovernmentPortal.Controllers.LicensingController.UpdateApplication (GovernmentPortal)'
+2025-10-14 18:15:11.785 +03:00 [INF] HTTP PUT /api/Licensing responded 400 in 79.7074 ms
+2025-10-14 18:15:11.789 +03:00 [INF] Request finished HTTP/2 PUT https://localhost:7090/api/Licensing - 400 null application/problem+json; charset=utf-8 89.7154ms
+2025-10-14 18:15:51.307 +03:00 [INF] Request starting HTTP/2 PUT https://localhost:7090/api/Licensing - application/json 87
+2025-10-14 18:15:51.328 +03:00 [INF] Executing endpoint 'GovernmentPortal.Controllers.LicensingController.UpdateApplication (GovernmentPortal)'
+2025-10-14 18:15:51.332 +03:00 [INF] Route matched with {action = "UpdateApplication", controller = "Licensing"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult UpdateApplication(GovernmentPortal.Models.LicenseApplicationActionViwModel) on controller GovernmentPortal.Controllers.LicensingController (GovernmentPortal).
+2025-10-14 18:15:51.341 +03:00 [INF] License Application Was Updated {"Id":"963506c9-42b2-42d9-b080-5f0bf2d148c2","Name":"ibrahim","NationalNumber":"1234567890","Mobile":"01094467396","Status":"Review","RejectReason":"","SubmittedAt":"2025-10-14T18:14:31.6947686+03:00","$type":"LicenseApplication"} : {"Id":"963506c9-42b2-42d9-b080-5f0bf2d148c2","Name":"ibrahim","NationalNumber":"1234567890","Mobile":"01094467396","Status":"Review","RejectReason":"","SubmittedAt":"2025-10-14T18:14:31.6947686+03:00","$type":"LicenseApplication"} at "2025-10-14T18:15:51.3406758+03:00"
+2025-10-14 18:15:51.371 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`1[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-10-14 18:15:51.374 +03:00 [INF] Executed action GovernmentPortal.Controllers.LicensingController.UpdateApplication (GovernmentPortal) in 34.8719ms
+2025-10-14 18:15:51.376 +03:00 [INF] Executed endpoint 'GovernmentPortal.Controllers.LicensingController.UpdateApplication (GovernmentPortal)'
+2025-10-14 18:15:51.378 +03:00 [INF] HTTP PUT /api/Licensing responded 200 in 50.2594 ms
+2025-10-14 18:15:51.389 +03:00 [INF] Request finished HTTP/2 PUT https://localhost:7090/api/Licensing - 200 null application/json; charset=utf-8 82.2223ms
+2025-10-14 18:15:57.815 +03:00 [INF] Request starting HTTP/2 PUT https://localhost:7090/api/Licensing - application/json 87
+2025-10-14 18:15:57.821 +03:00 [INF] Executing endpoint 'GovernmentPortal.Controllers.LicensingController.UpdateApplication (GovernmentPortal)'
+2025-10-14 18:15:57.823 +03:00 [INF] Route matched with {action = "UpdateApplication", controller = "Licensing"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult UpdateApplication(GovernmentPortal.Models.LicenseApplicationActionViwModel) on controller GovernmentPortal.Controllers.LicensingController (GovernmentPortal).
+2025-10-14 18:15:57.829 +03:00 [INF] License Application Was Updated {"Id":"963506c9-42b2-42d9-b080-5f0bf2d148c2","Name":"ibrahim","NationalNumber":"1234567890","Mobile":"01094467396","Status":"4","RejectReason":"","SubmittedAt":"2025-10-14T18:14:31.6947686+03:00","$type":"LicenseApplication"} : {"Id":"963506c9-42b2-42d9-b080-5f0bf2d148c2","Name":"ibrahim","NationalNumber":"1234567890","Mobile":"01094467396","Status":"4","RejectReason":"","SubmittedAt":"2025-10-14T18:14:31.6947686+03:00","$type":"LicenseApplication"} at "2025-10-14T18:15:57.8292114+03:00"
+2025-10-14 18:15:57.860 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`1[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-10-14 18:15:57.863 +03:00 [INF] Executed action GovernmentPortal.Controllers.LicensingController.UpdateApplication (GovernmentPortal) in 35.1782ms
+2025-10-14 18:15:57.870 +03:00 [INF] Executed endpoint 'GovernmentPortal.Controllers.LicensingController.UpdateApplication (GovernmentPortal)'
+2025-10-14 18:15:57.872 +03:00 [INF] HTTP PUT /api/Licensing responded 200 in 51.2007 ms
+2025-10-14 18:15:57.874 +03:00 [INF] Request finished HTTP/2 PUT https://localhost:7090/api/Licensing - 200 null application/json; charset=utf-8 59.276ms
+2025-10-14 18:16:06.719 +03:00 [INF] Request starting HTTP/2 PUT https://localhost:7090/api/Licensing - application/json 87
+2025-10-14 18:16:06.724 +03:00 [INF] Executing endpoint 'GovernmentPortal.Controllers.LicensingController.UpdateApplication (GovernmentPortal)'
+2025-10-14 18:16:06.727 +03:00 [INF] Route matched with {action = "UpdateApplication", controller = "Licensing"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult UpdateApplication(GovernmentPortal.Models.LicenseApplicationActionViwModel) on controller GovernmentPortal.Controllers.LicensingController (GovernmentPortal).
+2025-10-14 18:16:06.732 +03:00 [ERR] app id is "963506c9-42b2-42d9-b080-5f0bf2d148c2" Reason Is Required at "2025-10-14T18:16:06.7321880+03:00"
+2025-10-14 18:16:06.737 +03:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-10-14 18:16:06.742 +03:00 [INF] Executed action GovernmentPortal.Controllers.LicensingController.UpdateApplication (GovernmentPortal) in 11.0567ms
+2025-10-14 18:16:06.747 +03:00 [INF] Executed endpoint 'GovernmentPortal.Controllers.LicensingController.UpdateApplication (GovernmentPortal)'
+2025-10-14 18:16:06.751 +03:00 [INF] HTTP PUT /api/Licensing responded 400 in 27.3753 ms
+2025-10-14 18:16:06.754 +03:00 [INF] Request finished HTTP/2 PUT https://localhost:7090/api/Licensing - 400 null application/problem+json; charset=utf-8 35.7931ms
+2025-10-14 18:16:17.390 +03:00 [INF] Request starting HTTP/2 PUT https://localhost:7090/api/Licensing - application/json 87
+2025-10-14 18:16:17.397 +03:00 [INF] Executing endpoint 'GovernmentPortal.Controllers.LicensingController.UpdateApplication (GovernmentPortal)'
+2025-10-14 18:16:17.404 +03:00 [INF] Route matched with {action = "UpdateApplication", controller = "Licensing"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult UpdateApplication(GovernmentPortal.Models.LicenseApplicationActionViwModel) on controller GovernmentPortal.Controllers.LicensingController (GovernmentPortal).
+2025-10-14 18:16:17.412 +03:00 [INF] License Application Was Updated {"Id":"963506c9-42b2-42d9-b080-5f0bf2d148c2","Name":"ibrahim","NationalNumber":"1234567890","Mobile":"01094467396","Status":"Accept","RejectReason":"","SubmittedAt":"2025-10-14T18:14:31.6947686+03:00","$type":"LicenseApplication"} : {"Id":"963506c9-42b2-42d9-b080-5f0bf2d148c2","Name":"ibrahim","NationalNumber":"1234567890","Mobile":"01094467396","Status":"Accept","RejectReason":"","SubmittedAt":"2025-10-14T18:14:31.6947686+03:00","$type":"LicenseApplication"} at "2025-10-14T18:16:17.4123766+03:00"
+2025-10-14 18:16:17.448 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`1[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-10-14 18:16:17.451 +03:00 [INF] Executed action GovernmentPortal.Controllers.LicensingController.UpdateApplication (GovernmentPortal) in 41.4371ms
+2025-10-14 18:16:17.454 +03:00 [INF] Executed endpoint 'GovernmentPortal.Controllers.LicensingController.UpdateApplication (GovernmentPortal)'
+2025-10-14 18:16:17.456 +03:00 [INF] HTTP PUT /api/Licensing responded 200 in 58.7682 ms
+2025-10-14 18:16:17.467 +03:00 [INF] Request finished HTTP/2 PUT https://localhost:7090/api/Licensing - 200 null application/json; charset=utf-8 76.6757ms
+2025-10-14 19:11:55.220 +03:00 [INF] Now listening on: https://localhost:7090
+2025-10-14 19:11:55.296 +03:00 [INF] Now listening on: http://localhost:5245
+2025-10-14 19:11:55.409 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-14 19:11:55.410 +03:00 [INF] Hosting environment: Development
+2025-10-14 19:11:55.412 +03:00 [INF] Content root path: F:\2p_test\GovernmentPortal\src\GovernmentPortal
+2025-10-14 19:12:52.088 +03:00 [INF] Request starting HTTP/2 PUT https://localhost:7090/api/Licensing - application/json 87
+2025-10-14 19:12:52.243 +03:00 [INF] Executing endpoint 'GovernmentPortal.Controllers.LicensingController.UpdateApplicationStatus (GovernmentPortal)'
+2025-10-14 19:12:52.294 +03:00 [INF] Route matched with {action = "UpdateApplicationStatus", controller = "Licensing"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult UpdateApplicationStatus(GovernmentPortal.Models.LicenseApplicationActionViwModel) on controller GovernmentPortal.Controllers.LicensingController (GovernmentPortal).
+2025-10-14 19:12:52.376 +03:00 [ERR] Application is null at "2025-10-14T16:12:52.3757455Z". Id: "963506c9-42b2-42d9-b080-5f0bf2d148c2"
+2025-10-14 19:12:52.393 +03:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-10-14 19:12:52.435 +03:00 [INF] Executed action GovernmentPortal.Controllers.LicensingController.UpdateApplicationStatus (GovernmentPortal) in 125.7328ms
+2025-10-14 19:12:52.460 +03:00 [INF] Executed endpoint 'GovernmentPortal.Controllers.LicensingController.UpdateApplicationStatus (GovernmentPortal)'
+2025-10-14 19:12:52.468 +03:00 [INF] HTTP PUT /api/Licensing responded 400 in 324.7910 ms
+2025-10-14 19:12:52.478 +03:00 [INF] Request finished HTTP/2 PUT https://localhost:7090/api/Licensing - 400 null application/problem+json; charset=utf-8 392.8688ms
