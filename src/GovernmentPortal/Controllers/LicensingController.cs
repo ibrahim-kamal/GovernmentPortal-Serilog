@@ -2,7 +2,6 @@ using GovernmentPortal.Models;
 using GovernmentPortal.Services;
 using Microsoft.AspNetCore.Mvc;
 using Serilog;
-using static System.Net.Mime.MediaTypeNames;
 
 namespace GovernmentPortal.Controllers;
 

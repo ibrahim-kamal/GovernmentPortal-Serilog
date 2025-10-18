@@ -176,3 +176,106 @@
 2025-10-14 19:12:52.460 +03:00 [INF] Executed endpoint 'GovernmentPortal.Controllers.LicensingController.UpdateApplicationStatus (GovernmentPortal)'
 2025-10-14 19:12:52.468 +03:00 [INF] HTTP PUT /api/Licensing responded 400 in 324.7910 ms
 2025-10-14 19:12:52.478 +03:00 [INF] Request finished HTTP/2 PUT https://localhost:7090/api/Licensing - 400 null application/problem+json; charset=utf-8 392.8688ms
+2025-10-14 19:45:57.112 +03:00 [INF] Now listening on: https://localhost:7090
+2025-10-14 19:45:57.150 +03:00 [INF] Now listening on: http://localhost:5245
+2025-10-14 19:45:57.239 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-14 19:45:57.241 +03:00 [INF] Hosting environment: Development
+2025-10-14 19:45:57.244 +03:00 [INF] Content root path: F:\2p_test\GovernmentPortal\src\GovernmentPortal
+2025-10-18 15:25:17.466 +03:00 [INF] Now listening on: https://localhost:7090
+2025-10-18 15:25:17.531 +03:00 [INF] Now listening on: http://localhost:5245
+2025-10-18 15:25:17.728 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-18 15:25:17.890 +03:00 [INF] Hosting environment: Development
+2025-10-18 15:25:17.897 +03:00 [INF] Content root path: F:\2p_test\GovernmentPortal\src\GovernmentPortal
+2025-10-18 15:25:25.979 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5245/ - null null
+2025-10-18 15:25:26.964 +03:00 [INF] HTTP GET / responded 404 in 229.8514 ms
+2025-10-18 15:25:27.146 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5245/ - 404 0 null 1195.0869ms
+2025-10-18 15:25:27.284 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5245/, Response status code: 404
+2025-10-18 15:25:33.050 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7090/ - null null
+2025-10-18 15:25:33.063 +03:00 [INF] HTTP GET / responded 404 in 0.9397 ms
+2025-10-18 15:25:33.075 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7090/ - 404 0 null 24.3348ms
+2025-10-18 15:25:33.096 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7090/, Response status code: 404
+2025-10-18 15:25:34.657 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7090/swagger - null null
+2025-10-18 15:25:34.678 +03:00 [INF] HTTP GET /swagger responded 301 in 3.6512 ms
+2025-10-18 15:25:34.681 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7090/swagger - 301 0 null 24.374ms
+2025-10-18 15:25:34.685 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7090/swagger/index.html - null null
+2025-10-18 15:25:34.901 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 205.2951 ms
+2025-10-18 15:25:34.906 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7090/swagger/index.html - 200 null text/html;charset=utf-8 220.4194ms
+2025-10-18 15:25:34.940 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7090/swagger/swagger-ui.css - null null
+2025-10-18 15:25:34.940 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7090/swagger/index.css - null null
+2025-10-18 15:25:35.006 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7090/swagger/swagger-ui-bundle.js - null null
+2025-10-18 15:25:35.049 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7090/swagger/swagger-ui-standalone-preset.js - null null
+2025-10-18 15:25:35.049 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7090/swagger/index.js - null null
+2025-10-18 15:25:35.067 +03:00 [INF] HTTP GET /swagger/index.js responded 200 in 0.9695 ms
+2025-10-18 15:25:35.069 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7090/swagger/index.js - 200 null application/javascript;charset=utf-8 19.8075ms
+2025-10-18 15:25:35.077 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7090/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-18 15:25:35.084 +03:00 [INF] HTTP GET /swagger/index.css responded 200 in 29.2049 ms
+2025-10-18 15:25:35.093 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7090/swagger/index.css - 200 152 text/css 152.1165ms
+2025-10-18 15:25:35.109 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7090/_vs/browserLink - null null
+2025-10-18 15:25:35.131 +03:00 [INF] HTTP GET /swagger/swagger-ui-standalone-preset.js responded 200 in 70.0384 ms
+2025-10-18 15:25:35.133 +03:00 [INF] HTTP GET /swagger/swagger-ui.css responded 200 in 81.9509 ms
+2025-10-18 15:25:35.134 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7090/_framework/aspnetcore-browser-refresh.js - 200 16517 application/javascript; charset=utf-8 57.2025ms
+2025-10-18 15:25:35.153 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7090/swagger/swagger-ui-standalone-preset.js - 200 77352 text/javascript 146.0308ms
+2025-10-18 15:25:35.154 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7090/swagger/swagger-ui.css - 200 23647 text/css 213.7597ms
+2025-10-18 15:25:35.167 +03:00 [INF] HTTP GET /swagger/swagger-ui-bundle.js responded 200 in 108.3457 ms
+2025-10-18 15:25:35.196 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7090/swagger/swagger-ui-bundle.js - 200 424767 text/javascript 221.7512ms
+2025-10-18 15:25:35.293 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7090/_vs/browserLink - 200 null text/javascript; charset=UTF-8 184.5561ms
+2025-10-18 15:25:35.893 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7090/swagger/v1/swagger.json - null null
+2025-10-18 15:25:36.024 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 98.6830 ms
+2025-10-18 15:25:36.033 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7090/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 139.5082ms
+2025-10-18 15:25:40.998 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7090/api/Account/login - application/json 50
+2025-10-18 15:25:41.025 +03:00 [INF] Executing endpoint 'GovernmentPortal.Controllers.AccountController.Login (GovernmentPortal)'
+2025-10-18 15:25:41.073 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(GovernmentPortal.Controllers.LoginRequest) on controller GovernmentPortal.Controllers.AccountController (GovernmentPortal).
+2025-10-18 15:25:41.115 +03:00 [INF] Login attempt for user: string at "2025-10-18T15:25:41.1146381+03:00"
+2025-10-18 15:25:41.127 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-10-18 15:25:41.139 +03:00 [INF] Executed action GovernmentPortal.Controllers.AccountController.Login (GovernmentPortal) in 56.2176ms
+2025-10-18 15:25:41.142 +03:00 [INF] Executed endpoint 'GovernmentPortal.Controllers.AccountController.Login (GovernmentPortal)'
+2025-10-18 15:25:41.144 +03:00 [INF] HTTP POST /api/Account/login responded 200 in 135.5413 ms
+2025-10-18 15:25:41.146 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7090/api/Account/login - 200 null application/json; charset=utf-8 148.4341ms
+2025-10-18 15:29:14.511 +03:00 [INF] Now listening on: https://localhost:7090
+2025-10-18 15:29:14.536 +03:00 [INF] Now listening on: http://localhost:5245
+2025-10-18 15:29:14.678 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-18 15:29:14.680 +03:00 [INF] Hosting environment: Development
+2025-10-18 15:29:14.681 +03:00 [INF] Content root path: F:\2p_test\GovernmentPortal\src\GovernmentPortal
+2025-10-18 15:29:49.719 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7090/_vs/browserLink - null null
+2025-10-18 15:29:49.719 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7090/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-18 15:29:49.798 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7090/_framework/aspnetcore-browser-refresh.js - 200 16517 application/javascript; charset=utf-8 89.1728ms
+2025-10-18 15:29:49.846 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7090/_vs/browserLink - 200 null text/javascript; charset=UTF-8 139.0163ms
+2025-10-18 15:29:50.252 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7090/swagger/v1/swagger.json - null null
+2025-10-18 15:29:50.419 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 113.1184 ms
+2025-10-18 15:29:50.431 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7090/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 179.2859ms
+2025-10-18 15:29:56.000 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7090/api/Account/login - application/json 50
+2025-10-18 15:29:56.031 +03:00 [INF] Executing endpoint 'GovernmentPortal.Controllers.AccountController.Login (GovernmentPortal)'
+2025-10-18 15:29:56.061 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(GovernmentPortal.Controllers.LoginRequest) on controller GovernmentPortal.Controllers.AccountController (GovernmentPortal).
+2025-10-18 15:29:56.100 +03:00 [INF] Login attempt for user: string at "2025-10-18T15:29:56.1000612+03:00"
+2025-10-18 15:29:56.112 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-10-18 15:29:56.123 +03:00 [INF] Executed action GovernmentPortal.Controllers.AccountController.Login (GovernmentPortal) in 53.3861ms
+2025-10-18 15:29:56.125 +03:00 [INF] Executed endpoint 'GovernmentPortal.Controllers.AccountController.Login (GovernmentPortal)'
+2025-10-18 15:29:56.126 +03:00 [INF] HTTP POST /api/Account/login responded 200 in 113.9925 ms
+2025-10-18 15:29:56.128 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7090/api/Account/login - 200 null application/json; charset=utf-8 128.5283ms
+2025-10-18 15:30:52.011 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7090/api/Account/login - application/json 50
+2025-10-18 15:30:52.027 +03:00 [INF] Executing endpoint 'GovernmentPortal.Controllers.AccountController.Login (GovernmentPortal)'
+2025-10-18 15:30:52.029 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(GovernmentPortal.Controllers.LoginRequest) on controller GovernmentPortal.Controllers.AccountController (GovernmentPortal).
+2025-10-18 15:30:52.039 +03:00 [INF] Login attempt for user: string at "2025-10-18T15:30:52.0394699+03:00"
+2025-10-18 15:30:52.041 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-10-18 15:30:52.050 +03:00 [INF] Executed action GovernmentPortal.Controllers.AccountController.Login (GovernmentPortal) in 11.8282ms
+2025-10-18 15:30:52.052 +03:00 [INF] Executed endpoint 'GovernmentPortal.Controllers.AccountController.Login (GovernmentPortal)'
+2025-10-18 15:30:52.055 +03:00 [INF] HTTP POST /api/Account/login responded 200 in 29.6584 ms
+2025-10-18 15:30:52.058 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7090/api/Account/login - 200 null application/json; charset=utf-8 46.2856ms
+2025-10-18 15:30:56.261 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7090/api/Account/login - application/json 50
+2025-10-18 15:30:56.269 +03:00 [INF] Executing endpoint 'GovernmentPortal.Controllers.AccountController.Login (GovernmentPortal)'
+2025-10-18 15:30:56.272 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(GovernmentPortal.Controllers.LoginRequest) on controller GovernmentPortal.Controllers.AccountController (GovernmentPortal).
+2025-10-18 15:30:56.283 +03:00 [INF] Login attempt for user: string at "2025-10-18T15:30:56.2837820+03:00"
+2025-10-18 15:30:56.286 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-10-18 15:30:56.289 +03:00 [INF] Executed action GovernmentPortal.Controllers.AccountController.Login (GovernmentPortal) in 6.433ms
+2025-10-18 15:30:56.293 +03:00 [INF] Executed endpoint 'GovernmentPortal.Controllers.AccountController.Login (GovernmentPortal)'
+2025-10-18 15:30:56.297 +03:00 [INF] HTTP POST /api/Account/login responded 200 in 28.8119 ms
+2025-10-18 15:30:56.300 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7090/api/Account/login - 200 null application/json; charset=utf-8 39.5092ms
+2025-10-18 15:31:19.150 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7090/api/Account/login - application/json 50
+2025-10-18 15:31:19.264 +03:00 [INF] Executing endpoint 'GovernmentPortal.Controllers.AccountController.Login (GovernmentPortal)'
+2025-10-18 15:31:19.273 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(GovernmentPortal.Controllers.LoginRequest) on controller GovernmentPortal.Controllers.AccountController (GovernmentPortal).
+2025-10-18 15:31:19.287 +03:00 [INF] Login attempt for user: string at "2025-10-18T15:31:19.2879018+03:00"
+2025-10-18 15:31:19.290 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-10-18 15:31:19.300 +03:00 [INF] Executed action GovernmentPortal.Controllers.AccountController.Login (GovernmentPortal) in 12.7583ms
+2025-10-18 15:31:19.349 +03:00 [INF] Executed endpoint 'GovernmentPortal.Controllers.AccountController.Login (GovernmentPortal)'
+2025-10-18 15:31:19.351 +03:00 [INF] HTTP POST /api/Account/login responded 200 in 87.2246 ms
+2025-10-18 15:31:19.356 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7090/api/Account/login - 200 null application/json; charset=utf-8 205.993ms
