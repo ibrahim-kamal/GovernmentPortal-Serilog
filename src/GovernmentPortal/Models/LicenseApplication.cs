@@ -1,4 +1,5 @@
 using System.Reflection;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace GovernmentPortal.Models;
 
@@ -11,6 +12,25 @@ public class LicenseApplication
     public LicenseApplicationStatus Status { get; set; } = LicenseApplicationStatus.Apply;
     public string RejectReason { get; set; } = string.Empty;
     public DateTime SubmittedAt { get; } = DateTime.Now;
+
+    public LicenseApplication(LicenseApplication app) {
+
+        Id = app.Id;
+        Name = app.Name;
+        NationalNumber = app.NationalNumber;
+        Mobile = app.Mobile;
+        Status = app.Status;
+        RejectReason = app.RejectReason;
+        SubmittedAt = app.SubmittedAt;
+    }
+
+
+    public LicenseApplication(string mobile ,string name , string nationalNumber)
+    {
+        Name = name;
+        NationalNumber = nationalNumber;
+        Mobile = mobile;
+    }
 }
 
 public enum LicenseApplicationStatus

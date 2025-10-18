@@ -2,6 +2,8 @@ using GovernmentPortal.Models;
 using GovernmentPortal.Services;
 using Microsoft.AspNetCore.Mvc;
 using Serilog;
+using System.Reflection;
+using System.Xml.Linq;
 
 namespace GovernmentPortal.Controllers;
 
@@ -33,12 +35,7 @@ public class LicensingController : ControllerBase
     [HttpPost]
     public IActionResult SubmitApplication([FromBody] LicenseApplicationViwModel app)
     {
-        var application = new LicenseApplication
-        {
-            Mobile = app.Mobile,
-            Name = app.Name,
-            NationalNumber = app.NationalNumber
-        };
+        var application = new LicenseApplication(app.Mobile, app.Name, app.NationalNumber);
         _licenseService.SubmitApplication(application);
         Log.Information("new License Application Was Submitted {@info}", app);
         return Ok(new { Message = "Application submitted", Id = application.Id });
@@ -58,7 +55,7 @@ public class LicensingController : ControllerBase
             Log.Error("Application is null at {Time}. Id: {Id}", DateTime.UtcNow, action.Id);
             return BadRequest();
         }
-        var before = application;
+        var before = new LicenseApplication(application);
         application.Status = action.Status;
         if(application.Status == LicenseApplicationStatus.Reject)
             application.RejectReason = action.RejectReason;
